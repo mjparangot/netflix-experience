@@ -1,0 +1,84 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetice Neue", Helvetica;
+}
+
+.page-section {
+	margin: 0;
+	padding: 0;
+}
+
+#head {
+	height: 1000px;
+	background: url('../images/hero1.jpg') no-repeat;
+	background-size: 1440px 700px;
+}
+
+#logo {
+	margin: 60px 0 0 130px;
+}
+
+#header-title {
+	font-weight: bold;
+	font-size: 60px;
+	color: #fff;
+	margin: 60px 0 0 350px;
+	width: 800px;
+}
+
+#header-desc {
+	width: 800px;
+	font-size: 20px;
+	color: #fff;
+  	margin: 30px 0 0 300px;
+	line-height: 1.5em;
+  	text-align: center;
+}
+
+#header-buttons > button {
+	float: left;
+	width: 280px;
+	height: 60px;
+	background-color: #147af9;
+	border-radius: 0;
+	margin-right: 65px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-right: 60px;
+}
+
+#header-buttons > button:hover {
+	background-color: #3890fd;
+}
+
+
+@media (min-width: 1440px) {
+  
+  #head {
+    background-size: 100%;
+  }
+
+  #logo {
+  	margin-top: 5%;
+  	margin-left: 10%;
+  }
+
+  #header-title {
+  	width: 100%;
+	text-align: center;
+	margin: 60px 0 0 0;
+  }
+
+  #header-desc {
+  	margin: 0 auto;
+  	margin-top: 30px;
+  	text-align: center;
+  	line-height: 1.5em;
+  }
+
+  #header-buttons {
+  	width: 100%;
+	margin: 0 auto;
+  }
+}
